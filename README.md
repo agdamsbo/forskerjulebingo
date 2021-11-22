@@ -1,2 +1,2 @@
 # forskerjulebingo
-forskerjulebingo 2021
+Dataset og kode til bingoplader til underholdning ved julefrokost 2021.
