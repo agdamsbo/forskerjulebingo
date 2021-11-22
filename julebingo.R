@@ -1,11 +1,15 @@
 ## https://github.com/jennybc/bingo
 library(bingo)
 
+# Define working directory
+setwd("/Users/au301842/Desktop/Julesangsbingo")
+
 # Original export format is madness.. but after a bit of cleaning it works
 library(readxl)
-playlist<-read_xlsx("/Users/au301842/Desktop/Julesangsbingo/julesangsmadnes_clean.xlsx")
+playlist<-read_xlsx("julesangsmadnes_clean.xlsx")
+write.csv(playlist,"playlist_clean.csv")
 
-## Playlist:
+## Playlist online:
 ## https://open.spotify.com/playlist/62eKu57NMLbFadtTWccOsc?si=10f1413590934ec9
 
 for (i in 1:nrow(playlist)){
